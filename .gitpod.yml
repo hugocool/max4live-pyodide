@@ -9,13 +9,9 @@ vscode:
     - davidanson.vscode-markdownlint
     - ms-azuretools.vscode-docker
     - ms-toolsai.jupyter
-
     - hediet.vscode-drawio
-
     - njpwerner.autodocstring
-
     - mintlify.document
-
     - ms-vscode.live-server
 
 tasks:
@@ -23,4 +19,5 @@ tasks:
     init: |
       export PIP_USER=false 
       poetry install --no-root 
+      
     command: poetry shell
